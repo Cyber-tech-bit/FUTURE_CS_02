@@ -1,7 +1,5 @@
 # Phishing Email Detection & Awareness System
 
-![Safe vs Suspicious vs Phishing Email Comparison](screenshots/phishing_email_examples.png)
-
 ## Future Interns Cyber Security Internship
 
 **Prepared by:** Keerit Kapoor
@@ -12,119 +10,89 @@
 
 ## Project Overview
 
-This project demonstrates how to identify and classify email-based threats by comparing simulated examples of:
+This project demonstrates how to identify and classify email-based threats using simulated examples of safe, suspicious, and phishing emails.
 
-* Safe emails
-* Suspicious emails
-* Phishing emails
+The purpose is to help users recognise common warning signs such as fake sender domains, urgent language, suspicious links, generic greetings, and requests for sensitive information.
 
-The aim is to improve user awareness of common phishing indicators, reduce the risk of credential theft, and encourage safe email-handling habits.
-
-> **Important:** All email examples in this project are simulated for educational purposes. No real accounts, active links, passwords, or personal credentials were used.
+> **Disclaimer:** All examples, domains, links, and messages in this repository are simulated for educational purposes only. No real accounts, passwords, or credentials were used.
 
 ---
 
 ## Objective
 
-* Identify common phishing indicators in emails.
+* Identify common phishing indicators.
 * Classify emails as Safe, Suspicious, or Phishing.
-* Explain risks in simple, user-friendly language.
-* Provide practical prevention and awareness guidance.
+* Explain the risks in simple language.
+* Provide practical awareness guidance to help users avoid phishing attacks.
 
 ---
 
 ## Email Classification Summary
 
-| Email Type                   | Classification | Main Indicators                                              |
-| ---------------------------- | -------------- | ------------------------------------------------------------ |
-| NorthStar order confirmation | Safe           | Clear sender domain, personalised message, no urgent request |
-| Account verification message | Suspicious     | Lookalike domain, generic greeting, urgency                  |
-| Payment warning message      | Phishing       | Fake domain, threatening language, suspicious payment link   |
+| Example                      | Classification | Key Indicators                                            |
+| ---------------------------- | -------------- | --------------------------------------------------------- |
+| NorthStar order confirmation | Safe           | Personalised, clear information, no urgent request        |
+| Account verification notice  | Suspicious     | Lookalike domain, generic greeting, urgency               |
+| Payment update warning       | Phishing       | Fake sender domain, threatening language, suspicious link |
 
 ---
 
-## Key Phishing Indicators
+## Evidence 1: Simulated Email Comparison
 
-### 1. Sender Address
+![Safe vs Suspicious vs Phishing Email Comparison](screenshots/phishing_email_examples.png)
 
-Always check the complete sender address, not only the display name.
+This comparison explains the differences between a legitimate-looking email, a suspicious email, and a phishing email.
 
-Example:
+### Safe Email Indicators
 
-```text
-orders@northstar.example
-```
+* Sender domain matches the organisation.
+* Message is personalised and informative.
+* No urgent action is demanded.
+* No request for passwords, OTPs, or payment information.
 
-This is a simulated official-looking sender domain.
+### Suspicious Email Indicators
 
-A suspicious sender may use a lookalike domain such as:
+* Sender uses a lookalike or unusual domain.
+* Message uses a generic greeting.
+* Creates mild urgency, such as asking to verify an account.
+* Encourages the user to click a link.
 
-```text
-support@northstar-security.example
-```
+### Phishing Email Indicators
 
----
-
-### 2. Urgent or Threatening Language
-
-Phishing emails often create panic using phrases such as:
-
-* “Action required immediately”
-* “Your account will be suspended”
-* “Update your payment details now”
-* “Verify within 24 hours”
-
-Legitimate organisations usually provide clear information without pressuring users into immediate action.
+* Sender domain is fake or unrelated.
+* Message uses urgent or threatening language.
+* Requests sensitive information or payment details.
+* Includes a suspicious action link.
 
 ---
 
-### 3. Suspicious Links
+## Evidence 2: Phishing Indicator Analysis
 
-Before opening a link:
+![Phishing Indicator Analysis Guide](screenshots/phishing_email_analysis_guide.png)
 
-* Hover over it to inspect the destination.
-* Check whether the domain matches the organisation.
-* Do not enter passwords, card details, or one-time codes through unexpected email links.
-* Open the official website manually instead.
+The image above analyses key indicators that should be checked before trusting an email.
 
----
-
-### 4. Generic Greetings
-
-Messages beginning with:
-
-```text
-Dear Customer
-```
-
-or
-
-```text
-Dear User
-```
-
-may deserve extra caution, especially when combined with urgency, unknown senders, or payment requests.
+| Indicator             | What to Check                                                         |
+| --------------------- | --------------------------------------------------------------------- |
+| Sender Address        | Check the complete sender email address and domain                    |
+| Urgency               | Be cautious of threats, deadlines, or pressure to act immediately     |
+| Links                 | Hover over links and verify the real destination                      |
+| Greeting              | Generic greetings may require extra caution                           |
+| Attachments           | Do not open unexpected files or invoices                              |
+| Sensitive Information | Never share passwords, OTPs, or payment details by email              |
+| Overall Quality       | Watch for poor grammar, strange formatting, and inconsistent branding |
 
 ---
 
-## Evidence
+## Prevention Guidelines
 
-### Simulated Email Comparison
-
-![Simulated phishing email comparison](screenshots/phishing_email_examples.png)
-
-The evidence image compares three simulated emails and explains why each was classified as Safe, Suspicious, or Phishing.
-
----
-
-## Awareness and Prevention Guidelines
-
-* Verify the complete sender email address.
+* Verify the full sender email address before replying or clicking anything.
 * Do not trust urgent or threatening messages automatically.
-* Hover over links before clicking.
-* Never share passwords, OTPs, or payment details by email.
-* Use multi-factor authentication where available.
-* Access sensitive accounts through official apps, bookmarks, or manually typed URLs.
+* Hover over links to inspect the destination before opening them.
+* Never share passwords, OTPs, banking details, or payment information by email.
+* Do not open unexpected attachments.
+* Access accounts through official apps, bookmarks, or manually typed website addresses.
+* Use multi-factor authentication whenever possible.
 * Report suspicious emails to your organisation or email provider.
 
 ---
@@ -137,22 +105,26 @@ FUTURE_CS_02/
 ├── README.md
 │
 └── screenshots/
-    └── phishing_email_examples.png
+    ├── phishing_email_examples.png
+    └── phishing_email_analysis_guide.png
 ```
 
 ---
 
 ## Skills Demonstrated
 
-* Phishing email identification
-* Sender-domain analysis
-* Link-safety awareness
-* Threat classification
+* Phishing email detection
+* Sender-domain verification
+* Suspicious-link awareness
+* Risk classification
 * Cybersecurity awareness communication
 * GitHub documentation
 
 ---
 
-## Disclaimer
+## Conclusion
 
-This repository was created for educational and internship-portfolio purposes only. All email examples, domains, messages, and links are fictional simulations created to demonstrate phishing-awareness techniques.
+Phishing attacks often rely on urgency, deception, and trust. Users can reduce risk by verifying senders carefully, avoiding unexpected links and attachments, and using official channels to access important accounts.
+
+Awareness is one of the strongest defences against phishing.
+
