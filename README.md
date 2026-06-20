@@ -120,6 +120,10 @@ FUTURE_CS_02/
 * Cybersecurity awareness communication
 * GitHub documentation
 
+## Full Report
+
+[Open the full Phishing Detection & Awareness Report](Phishing_Detection_Awareness_Report_Keerit_Kapoor.pdf)
+
 ---
 
 ## Conclusion
