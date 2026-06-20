@@ -132,3 +132,4 @@ Phishing attacks often rely on urgency, deception, and trust. Users can reduce r
 
 Awareness is one of the strongest defences against phishing.
 
+Some simulated awareness visuals were created with AI assistance and reviewed for educational accuracy.
