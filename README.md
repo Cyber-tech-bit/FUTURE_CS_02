@@ -131,5 +131,3 @@ FUTURE_CS_02/
 Phishing attacks often rely on urgency, deception, and trust. Users can reduce risk by verifying senders carefully, avoiding unexpected links and attachments, and using official channels to access important accounts.
 
 Awareness is one of the strongest defences against phishing.
-
-Some simulated awareness visuals were created with AI assistance and reviewed for educational accuracy.
